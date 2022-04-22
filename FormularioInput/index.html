@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Entrada de valores para PHP</title>
+    </head>
+    <body>
+        <h3>Primeiro Imput - Calcular a raiz quadrada</h3>
+        <div>
+            <form method="get" action="processo01.php">
+                Valor: <input type="number" name="valorNumerico">
+                <input type="submit" value="Calcular Raiz Quadrada">
+            </form>
+        </div>
+        <br><br>
+
+        <h3>Entrada de valores - Cadastrar Pessoa</h3>
+        <div>
+            <form method="get" action="processo02.php">
+                Nome: <input type="text" name="nome"><br><br>
+                Ano de Nascimento: <input type="number" name="anoNascimento"><br><br>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="masculino" value="Homem" checked>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="feminino" value="Mulher">
+                    <label for="feminino">Feminino</label>
+                </fieldset>
+                <br>
+                <input type="submit" value="Enviar Pessoa">
+            </form>
+        </div>
+
+        <br>
+        <h3>Entrada de valores - Personalização de formulario com Input</h3>
+        <div>
+            <form method="get" action="processo03.php">
+                <label for="inputTexto">Texto: </label>
+                <input type="text" name="texto" id="inputTexto"> <br><br>
+                <label for="inputTamanho">Tamanho: </label>
+                <select name="tamanho" id="inputTamanho">
+                    <option value="8pt">8</option>
+                    <option value="10pt">10</option>
+                    <option value="12pt">12</option>
+                    <option value="14pt" selected>14</option>
+                    <option valeu="20pt">20</option>
+                    <option value="40pt">40</option>
+                </select> <br><br>
+                <label for="inputCor">Cor: </label>
+                <input type="color" name="cor" id="inputCor"> <br><br>
+                <input type="submit" value="Gerar">
+            </form>
+        </div>
+    </body>
+</html>
