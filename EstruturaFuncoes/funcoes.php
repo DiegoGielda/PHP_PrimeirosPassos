@@ -12,6 +12,20 @@
                 return ($valor01 - $valor02);
             }
         }
+
+        function comTipoDeParametroDefinido(string $texto, int $numero, float $numeroDecimal, Array $tipoComposto){
+
+            echo "Trabalhando com tipos definidos nos parametros. $texto $numero $numeroDecimal $tipoComposto";
+
+        }
+
+        function comTipoDeRetornoDefinido(string $texto): int {
+
+            echo "Trabalhando com tipos definidos nos parametros. $texto";
+            return 12;
+            
+        }
+
     ?>
 </body>
 </html>
