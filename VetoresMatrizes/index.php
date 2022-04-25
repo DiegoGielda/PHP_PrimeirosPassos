@@ -27,9 +27,9 @@
         "dezessete" => 17
     );
     /*
-            DECLARAÇÃO IDÊNTICA A CIMA.
-          $numeros = array("um" => 1, "dois" => 2, "treis" => 3, "dezessete" => 17);   
-        */
+        DECLARAÇÃO IDÊNTICA A CIMA.
+        $numeros = array("um" => 1, "dois" => 2, "treis" => 3, "dezessete" => 17);   
+    */
 
     foreach ($numeros as $numeroIndice => $numeroSeuValor) {
 
@@ -52,6 +52,13 @@
         <label for="btnAssociativo" name="lblAssociativo">Trabalhando com Array Associativos</label>
         <input type="submit" name="btnAssociativo" value="Continuar">
     </form>
+    
+    <br><br>
+    <form method="get" action="trabalhandoComArray.php">
+        <label for="btnTrabalhandoComArray" name="lblTrabalhandoComArray">Trabalhando com Array no PHP</label>
+        <input type="submit" name="btnTrabalhandoComArray" value="Trabalhando com Array">
+    </form>
+
 </body>
 
 </html>

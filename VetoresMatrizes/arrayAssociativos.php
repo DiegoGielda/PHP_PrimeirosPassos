@@ -34,10 +34,10 @@
 
     for ($lContador = 0; $lContador < count($listaDeFuncionarios); $lContador++) {
 
-        echo $listaDeFuncionarios[$lContador]['Nome'] . "<br>";
+        echo mb_strtoupper($listaDeFuncionarios[$lContador]['Nome']). "<br>";
     }
 
-    
+    echo "<br>Expressão complexa com Array dentro de Array {$listaDeFuncionarios[1]['Nome']}";
 
     ?>
 
